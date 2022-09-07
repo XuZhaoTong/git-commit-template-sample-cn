@@ -1,0 +1,1 @@
+rootProject.name = "git-commit-template-sample-cn"
