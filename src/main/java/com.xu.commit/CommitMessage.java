@@ -35,7 +35,7 @@ class CommitMessage {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append(COMMIT_TYPES.get(changeType.label()) + changeType.label());
+        builder.append(COMMIT_TYPES.get(changeType.label()) + ' ' + changeType.label());
         builder
                 .append(": ")
                 .append(shortDescription);

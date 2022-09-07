@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="502" height="404"/>
+      <xy x="20" y="20" width="506" height="404"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -48,7 +48,7 @@
             <properties>
               <actionCommand value="feat"/>
               <selected value="false"/>
-              <text value="✨feat - 添加新特性"/>
+              <text value="✨ feat - 添加新特性"/>
             </properties>
           </component>
           <hspacer id="ae76c">
@@ -63,7 +63,7 @@
             <properties>
               <actionCommand value="fix"/>
               <selected value="false"/>
-              <text value="🐞fix - 修复bug"/>
+              <text value="🐞 fix - 修复bug"/>
             </properties>
           </component>
           <component id="48d9a" class="javax.swing.JRadioButton" binding="docsRadioButton">
@@ -72,7 +72,7 @@
             </constraints>
             <properties>
               <actionCommand value="docs"/>
-              <text value="📃docs - 仅仅修改文档"/>
+              <text value="📃 docs - 仅仅修改文档"/>
             </properties>
           </component>
           <component id="621d2" class="javax.swing.JRadioButton" binding="styleRadioButton">
@@ -81,7 +81,7 @@
             </constraints>
             <properties>
               <actionCommand value="style"/>
-              <text value="🌈style - 仅仅修改了空格、格式缩进、逗号等等，不改变代码逻辑"/>
+              <text value="🌈 style - 仅仅修改了空格、格式缩进、逗号等等，不改变代码逻辑"/>
             </properties>
           </component>
           <component id="7d0c5" class="javax.swing.JRadioButton" binding="refactorRadioButton">
@@ -90,7 +90,7 @@
             </constraints>
             <properties>
               <actionCommand value="refactor"/>
-              <text value="🦄refactor - 代码重构，没有加新功能或修复bug"/>
+              <text value="🦄 refactor - 代码重构，没有加新功能或修复bug"/>
             </properties>
           </component>
           <component id="1325a" class="javax.swing.JRadioButton" binding="perfRadioButton">
@@ -100,7 +100,7 @@
             <properties>
               <actionCommand value="perf"/>
               <selected value="false"/>
-              <text value="🎈perf - 优化相关，比如提升性能、体验"/>
+              <text value="🎈 perf - 优化相关，比如提升性能、体验"/>
             </properties>
           </component>
           <component id="c1b37" class="javax.swing.JRadioButton" binding="testRadioButton">
@@ -109,7 +109,7 @@
             </constraints>
             <properties>
               <actionCommand value="test"/>
-              <text value="🧪test - 增加测试用例"/>
+              <text value="🧪 test - 增加测试用例"/>
             </properties>
           </component>
           <component id="5ced0" class="javax.swing.JRadioButton" binding="buildRadioButton">
@@ -118,7 +118,7 @@
             </constraints>
             <properties>
               <actionCommand value="build"/>
-              <text value="🔧build - 依赖相关的内容"/>
+              <text value="🔧 build - 依赖相关的内容"/>
             </properties>
           </component>
           <component id="d4c37" class="javax.swing.JRadioButton" binding="ciRadioButton">
@@ -127,7 +127,7 @@
             </constraints>
             <properties>
               <actionCommand value="ci"/>
-              <text value="🐎ci - ci配置相关 例如对k8s，docker的配置文件的修改"/>
+              <text value="🐎 ci - ci配置相关 例如对k8s，docker的配置文件的修改"/>
             </properties>
           </component>
           <component id="9b279" class="javax.swing.JRadioButton" binding="choreRadioButton">
@@ -136,7 +136,7 @@
             </constraints>
             <properties>
               <actionCommand value="chore"/>
-              <text value="🐳chore - 改变构建流程、或者增加依赖库、工具等"/>
+              <text value="🐳 chore - 改变构建流程、或者增加依赖库、工具等"/>
             </properties>
           </component>
           <component id="3f8cc" class="javax.swing.JRadioButton" binding="revertRadioButton">
@@ -145,7 +145,7 @@
             </constraints>
             <properties>
               <actionCommand value="revert"/>
-              <text value="↩revert - 回滚到上一个版本"/>
+              <text value="↩ revert - 回滚到上一个版本"/>
             </properties>
           </component>
           <component id="d02ab" class="javax.swing.JRadioButton" binding="initRadioButton">
@@ -155,7 +155,7 @@
             <properties>
               <actionCommand value="init"/>
               <selected value="true"/>
-              <text value="'🎉init - 项目初始化"/>
+              <text value="'🎉 init - 项目初始化"/>
             </properties>
           </component>
         </children>
