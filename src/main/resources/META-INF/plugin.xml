@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>git-commit-template-sample-cn</id>
     <name>Git Commit Template Sample Cn</name>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="xuzhaotong@msfintech.com"/>
     <description><![CDATA[
