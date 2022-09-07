@@ -12,8 +12,8 @@
         <li>添加描述</li>
     </ul>
     <p>该插件是在<a href="https://plugins.jetbrains.com/plugin/9861-git-commit-template">Git Commit Template</a>的基础上开发完成</p>
-    <img src="./commit-1.jpeg"/>
-    <img src="./commit-2.jpeg"/>
+    <img src="https://raw.githubusercontent.com/XuZhaoTong/git-commit-template-sample-cn/main/static/commit-1.jpeg"/>
+    <img src="https://raw.githubusercontent.com/XuZhaoTong/git-commit-template-sample-cn/main/static/commit-2.jpeg"/>
     <hr/>
 
     <h1>ReadMe</h1>
