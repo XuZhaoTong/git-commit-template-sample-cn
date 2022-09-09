@@ -1,28 +1,27 @@
 <idea-plugin>
-    <id>git-commit-template-sample-cn</id>
-    <name>Git Commit Template Sample Cn</name>
-    <version>1.1.0</version>
+    <id>git-commit-template-simple-cn</id>
+    <name>Git Commit Template Simple Cn</name>
+    <version>1.2.0</version>
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="xuzhaotong@msfintech.com"/>
     <description><![CDATA[
-    <h1>说明</h1>
-    <p>使用模板创建git提交消息</p>
-    <ul>
-        <li>选择类型</li>
-        <li>添加描述</li>
-    </ul>
-    <p>该插件是在<a href="https://plugins.jetbrains.com/plugin/9861-git-commit-template">Git Commit Template</a>的基础上开发完成</p>
-    <img width="800" height="700" src="https://raw.githubusercontent.com/XuZhaoTong/git-commit-template-sample-cn/main/static/commit-1.jpeg"/>
-    <img width="800" src="https://raw.githubusercontent.com/XuZhaoTong/git-commit-template-sample-cn/main/static/commit-2.jpeg"/>
-    <hr/>
-
-    <h1>ReadMe</h1>
-    <p>Create a commit message with the following template:</p>
+     <h1>ReadMe</h1>
+    <p>Create a git commit message with the following template:</p>
     <ul>
         <li>Choose type</li>
         <li>Add subject</li>
     </ul>
     <p>The plug-in is based on <a href="https://plugins.jetbrains.com/plugin/9861-git-commit-template">Git Commit Template</a> </p>
+    <hr/>
+    <h1>说明</h1>
+    <p>使用以下模板创建git提交消息</p>
+    <ul>
+        <li>选择类型</li>
+        <li>添加描述</li>
+    </ul>
+    <p>该插件是在<a href="https://plugins.jetbrains.com/plugin/9861-git-commit-template">Git Commit Template</a>的基础上开发完成</p>
+    <img width="800" height="700" src="https://raw.githubusercontent.com/XuZhaoTong/git-commit-template-simple-cn/main/static/commit-1.jpeg"/>
+    <img width="800" src="https://raw.githubusercontent.com/XuZhaoTong/git-commit-template-simple-cn/main/static/commit-2.jpeg"/>
     ]]></description>
 
     <depends>com.intellij.modules.vcs</depends>
